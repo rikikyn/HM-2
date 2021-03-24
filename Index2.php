@@ -12,7 +12,7 @@ $arr = [
     '10' => 10,
 ];
 
-$arrTrees = [
+$arrfr = [
     "Кокос" => 1,
     "Яблоко" => 2,
     "манго" => 3 ,
@@ -45,7 +45,7 @@ $arrTrees = [
         <div> <?php echo "{$k} = {$n}"; ?> </div>
     <?php } ?>
     <br >
-    <?php foreach ($arrTrees as $k => $n) { ?>
+    <?php foreach ($arrfr as $k => $n) { ?>
         <div> <?php echo "{$k} = {$n}"; ?> </div>
     <?php } ?>
 
